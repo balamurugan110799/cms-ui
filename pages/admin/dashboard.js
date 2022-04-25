@@ -2,7 +2,6 @@ import React from "react";
 
 // components
 import AdminNavbar from 'components/Navbars/AdminNavbar'
-import HeaderStats from 'components/Headers/HeaderStats'
 import Navbar from "components/Navbars/AdminNavbar";
 
 // layout for page
@@ -14,9 +13,7 @@ export default function Dashboard() {
     <>
     <div className=" md:ml-64 bg-blueGray-100">
     <Navbar/>
-          
         <AdminNavbar />
-        <HeaderStats />
       <div className="flex flex-wrap m-4">
         <div className="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
         </div>
