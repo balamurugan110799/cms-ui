@@ -1,0 +1,61 @@
+@media (min-width: 300px) and (max-width: 543px) {
+    .button-actionBar{
+        width: 100%!important;
+    }
+    #mainPage{
+        margin-top: 33%;
+    }
+    #Navbar{
+        display: none;
+    }
+}
+@media (min-width: 543px) and (max-width: 767px) {
+    .button-actionBar{
+        width: 100%!important;
+    }
+    #mainPage{
+        margin-top: 40%;
+    }
+    #NavbarFixed{
+        width:70%;
+    }
+}
+@media (min-width: 767px) and (max-width: 960px) {
+    .button-actionBar{
+        width: 100%!important;
+    }
+    #mainPage{
+        margin-top: 40%;
+    }
+    #NavbarFixed{
+        width:70%;
+    }
+}
+@media (min-width: 960px) and (max-width: 1024px) {
+    #mainPage{
+        margin-top: 24%;
+    }
+    #NavbarFixed{
+        width:70%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+    #mainPage{
+        margin-top: 17%;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1600px) {
+    #mainPage{
+        margin-top: 15%;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1900px) {
+    #mainPage{
+        margin-top: 15%;
+    }
+}
+@media (min-width: 1900px) and (max-width: 2560px) {
+    #mainPage{
+        margin-top: 10%;
+    }
+}
