@@ -6,7 +6,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 
 
-import CardPageVisits from 'components/Cards/CardPageVisits'
+import CardPageVisits from 'components/Cards/table'
 import ActionBar from 'components/GridLayout/actionBar'
 
 // layout for page
@@ -14,6 +14,7 @@ import Columns from 'components/GridLayout/columns'
 import Forms from 'components/GridLayout/columnsOne'
 import MainPage from 'components/GridLayout/mainPage'
 import PopUpMeassage from 'components/ModelBox/PopUpPage'
+import GirdFour from 'components/GridLayout/gridFour'
 
 // layout for page
 
@@ -39,19 +40,19 @@ export default function Settings() {
    <Columns Columns='4'>
    <input
    type="text"
-   className="h-32 border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+   className="h-32 border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-label rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
    placeholder="Input Box"
    />
    </Columns>
    <Columns Columns='4'>
    <textarea
    type="password"
-   className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+   className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-label rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
    placeholder="Text Area"
    />
    </Columns>
    <Columns Columns='4'>
-   <select  className="h-32 border-0 px-1 py-1 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150" name="cars" id="cars">
+   <select  className="h-32 border-0 px-1 py-1 placeholder-blueGray-300 text-blueGray-600 bg-label rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150" name="cars" id="cars">
        <option value="volvo">Volvo</option>
        <option value="saab">Saab</option>
        <option value="opel">Opel</option>
@@ -71,7 +72,7 @@ export default function Settings() {
    </Columns>
    <Columns Columns='4'>
 
-   <DatePicker  className="h-32 border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+   <DatePicker  className="h-32 border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-label rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                    
                       
                        dateFormat='dd/MM/yyyy'
@@ -93,8 +94,11 @@ export default function Settings() {
  <PopUpMeassage type="success"/>
  </div>
  </Columns>
+
+
+ 
   
-     <ActionBar/>
+     <ActionBar name="Action Bar"/>
      </Forms>
      <Columns>
      <CardPageVisits />

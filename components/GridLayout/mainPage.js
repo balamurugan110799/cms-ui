@@ -8,7 +8,7 @@ export default function MainPage(props){
             <div className="flex flex-wrap">
       <Navbar/>
        <div className="w-full lg:w-12/12" >
-       <Navbar/>
+       {/* <Navbar/> */}
        </div>
        <div id="mainPage" className='p-4 w-full'>
        <div className='rounded-md width96 marginauto outlineBorder p-4' >

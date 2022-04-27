@@ -1230,6 +1230,11 @@ select {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
+.bg-label {
+  --tw-bg-opacity: 1;
+  background-color: #f1f5f9;
+}
+
 .bg-pink-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(236, 72, 153, var(--tw-bg-opacity));
@@ -1523,16 +1528,16 @@ select {
 }
 
 #Navbar{
-  position: fixed;
+  position: sticky;
     top: 0%;
 }
 
 #mainPage{
-  margin-top: 15%;
+  margin-top: 4%;
 }
 
 #NavbarFixed{
-  width: 80%;
+  width: 95%;
 }
 
 .rounded {
@@ -1696,6 +1701,22 @@ select {
 
 .table {
   display: table;
+}
+
+#TableLastGrid{
+    width: 10%;
+    position:sticky; 
+    right:0;
+    top:auto;
+    background-color: #f8fafc;
+}
+#TableHeadLastGrid{
+  width: 10%;
+  position:sticky; 
+    right:0;
+    top:0%;
+    background-color: #f8fafc;
+    z-index: 1;
 }
 
 .table-caption {
@@ -3885,7 +3906,11 @@ select {
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
 }
-
+@media (max-width: 767px){
+  .sm\:w-12\/12 {
+    width: 100%;
+  }
+}
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
@@ -3910,6 +3935,8 @@ select {
   .sm\:w-6\/12 {
     width: 50%;
   }
+
+ 
 }
 
 @media (min-width: 768px) {
@@ -4071,6 +4098,9 @@ select {
 
   .md\:w-4\/12 {
     width: 33.333333%;
+  }
+  .md\:w-6\/12 {
+    width: 50%;
   }
   .md\:w-12\/12 {
     width: 100%;

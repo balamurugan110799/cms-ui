@@ -38,29 +38,117 @@ export default function CardPageVisits() {
           </div>
         </div>
         <table>
-        <thead>
-              <tr>
-                <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
-                 Name 
-                </th>
-                <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
-                  ID
-                </th>
-               
-                <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
-                  All in one
-                </th>
-              </tr>
-            </thead>
+     
         </table>
-    
+
+      
         <div className="block w-full overflow-x-auto" id="table">
        
         <table className="items-center w-full bg-transparent border-collapse" >
-       
+        <thead >
+              <tr className=''>
+              <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                 Name 
+             
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  ID
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                 Name 
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  ID
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                 Name 
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  ID
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                 Name 
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  ID
+                </th>
+                <th className="sticky top-0 sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                 Name 
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  ID
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                 Name 
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  ID
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                 Name 
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  ID
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                 Name 
+                </th>
+                <th className="sticky top-0 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  ID
+                </th>
+               
+                <th id="TableHeadLastGrid" className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  All in on
+             
+                </th>
+               
+              </tr>
+            </thead>
             <tbody>
             {sampleJSON.arrOfObjects.map((item, i) => {
-          return <tr key={i}>
+          return <tr key={i} >
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.name}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.b}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.name}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.b}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.name}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.b}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.name}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.b}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.name}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.b}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.name}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.b}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.name}
+            </td>
+            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            {item.b}
+            </td>
             <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
             {item.name}
             </td>
@@ -68,7 +156,7 @@ export default function CardPageVisits() {
             {item.b}
             </td>
             
-            <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+            <td id="TableLastGrid" className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
            <div className='flex'>
            <BiEditAlt className='mr-4 h-5 w-15 cursor-pointer hover:text-icon-color'/>    <AiFillDelete className='mr-4 h-5 w-15 cursor-pointer hover:text-icon-color'/> <BsFillEyeFill className='mr-4 h-5 w-15 cursor-pointer hover:text-icon-color'/>
              </div> 
@@ -79,8 +167,11 @@ export default function CardPageVisits() {
         })}
             </tbody>
           </table>
+          
 
         </div>
+        
+        
         <div className="block w-full overflow-x-auto">
           {/* Projects table */}
           {/* <table className="items-center w-full bg-transparent border-collapse">

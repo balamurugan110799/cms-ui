@@ -9,7 +9,7 @@ export default function Forms(props){
                    
                    </div>
                    </div>
-                   <div className='flex flex-wrap w-full'>
+                   <div className='flex flex-wrap w-full bg-white'>
                    {props.children}
                    </div>
            

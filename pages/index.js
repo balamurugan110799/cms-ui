@@ -5,6 +5,8 @@ import Login from './auth/login.js'
 import Auth from "../layouts/Auth";
 
 export default function Index() {
+
+
   return (
     <>
     
