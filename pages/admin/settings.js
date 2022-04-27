@@ -11,10 +11,9 @@ import ActionBar from 'components/GridLayout/actionBar'
 
 // layout for page
 import Columns from 'components/GridLayout/columns'
-import Forms from 'components/GridLayout/columnsOne'
+import Forms from 'components/GridLayout/forms'
 import MainPage from 'components/GridLayout/mainPage'
 import PopUpMeassage from 'components/ModelBox/PopUpPage'
-import GirdFour from 'components/GridLayout/gridFour'
 
 // layout for page
 

@@ -3,7 +3,7 @@ import Warper from "../CRUD/wraper";
 import Popup from "reactjs-popup";
 import { XCircleIcon } from '@heroicons/react/solid'
 import Columns from '../GridLayout/columns'
-import Forms from '../GridLayout/columnsOne'
+import Forms from '../GridLayout/forms'
 
 //
 

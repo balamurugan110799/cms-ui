@@ -1,5 +1,4 @@
 import React from 'react';
-import GirdFour from './gridFour';
 export default function Columns(props){
     switch(props.Columns){
         case '2':
